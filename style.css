@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252525;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculadora {
+    border: 1px solid #000000;
+    position: absolute;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #5d5f38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #bebebe;
+    text-align: right;
+}
+
+
+
+.teclas button {
+    appearance: button;
+    width: 50px;
+    height: auto;
+    background-color: #000000;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 3px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   .teclas button:after {
+    background-clip: padding-box;
+    background-color: #111111;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   .teclas button:main, .teclas button:focus {
+    user-select: auto;
+   }
+   .teclas button:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   .teclas button:disabled {
+    cursor: auto;
+   }
+   .teclas button:active:after {
+    border-width: 0 0 0px;
+   }  
+   .tecals button:active {
+    padding-bottom: 10px;
+   }
+   .teclas button:hover{
+    
+    color: #d8681d;
+   }
+
+   .igual {
+    appearance: button;
+    position: relative;
+    width: 175px;
+    left: 61px;
+    bottom: 53px;
+    height: auto;
+    background-color: #b66d00;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 3px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   .igual:after {
+    background-clip: padding-box;
+    background-color: #ff9b04;;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   .igual:main, .teclas:focus {
+    user-select: auto;
+   }
+   
+   .igual:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .igual:disabled {
+    cursor: auto;
+   }
+   
+   .igual:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .igual:active {
+    padding-bottom: 10px;
+   }
+   .teclas button:hover{
+    
+    color: #d8681d;
+   }
